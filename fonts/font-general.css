@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "MuseoCyrl700";
+	src: url("Museo/MuseoCyrl700.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MuseoCyrl500";
+	src: url("Museo/MuseoCyrl500.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MuseoCyrl300";
+	src: url("Museo/MuseoCyrl300.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("Myriad/MyriadProRegular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("Raleway/RalewayRegular.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayMedium";
+	src: url("Raleway/RalewayMedium.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewaySemiBold";
+	src: url("Raleway/RalewaySemiBold.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url(fonts/FontAwesome.otf)
+}

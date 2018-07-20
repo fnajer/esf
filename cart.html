@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="fonts/font-general.css">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="font-awesome.css">
+	
+    <script src="script/jquery-3.2.1.min.js"></script>
+    <script src="script/scriptCart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+ 
+		<nav class="top-menu">
+            <div class="layout-container">
+				<ul class="top-menu__links-list">
+					<li class="top-menu__item-list">
+						<a class="top-menu__link" href="#">Home</a>
+					</li>
+					<li class="top-menu__item-list">
+						<a class="top-menu__link">Cart</a>
+					</li>
+				</ul>
+            </div>
+        </nav>
+        
+		
+		<main class="main-cart">
+			<section class="layout-container">
+				<section class="main-cart__tables tables">
+					<table class="tables__full-table-cart full-table-cart tables__any-table">
+						<tr>
+							<th>
+								Photo
+							</th>
+							<th>
+								Name
+							</th>
+							<th>
+								Set Configuration
+							</th>
+							<th>
+								Unit Price
+							</th>
+							<th>
+								Quantity
+							</th>
+							<th>
+								Total
+							</th>
+							<th>
+								Select
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<img src="" width="65" height="50">
+							</td>
+							<td>
+							    <a class="link-underline" href="#">
+							        Modern Bedrooms Enzo
+                                </a>
+							</td>
+							<td>
+							    <ul class="list-configuration">
+							       <li> - Enzo Mirror For Single Dresser (x1)</li>
+                                    <li>- Enzo Single Dresser (x1)</li>
+                                    <li>- Enzo Night Stand (x2)</li>
+                                    <li>- Enzo QS Bed (x1)</li>
+							    </ul>
+							</td>
+							<td>
+                                <span class="data-price-1 color-price" id="data_price-1">$2781.00</span>
+							</td>
+							<td>
+								<input type="text" class="data-quantity-1" id="data_quantity-1" value="1">
+							</td>
+							<td>
+								<span class="data-total-1 color-price" id="data_total-1">$2781.00</span>
+							</td>
+							<td>
+							    <input type="checkbox">
+							</td>
+						</tr>
+						<tr>
+						    <td>
+								<img src="" width="65" height="50">
+							</td>
+							<td>
+								<a class="link-underline" href="#">
+                                    Classic Bedrooms Leonardo Bedroom, Camelgroup Italy
+                                </a>
+							</td>
+							<td>
+							    <ul class="list-configuration">
+							       <li> - Leonardo QS Bed (Imbottito) (x1)</li>
+                                    <li> - Leonardo Double Dresser (x1)</li>
+                                    <li> - Leonardo Mirror . (x1)</li>
+                                    <li> - Leonardo Nightstand (x2)</li>
+							    </ul>
+							</td>
+							<td>
+                                <span class="data-price-2 color-price" id="data_price-2">$1872.00</span>
+							</td>
+							<td>
+								<input type="text" class="data-quantity-2" id="data_quantity-2" value="1">
+							</td>
+							<td>
+								<span class="data-total-2 color-price" id="data_total-2">$1872.00</span>
+							</td>
+							<td>
+							    <input type="checkbox">
+							</td>
+						</tr>
+						<tr>
+                            <td></td>
+						    <td></td>
+						    <td></td>
+						    <td></td>
+						    <td>Grand Total</td>
+						    <td><span class="table-total-1 color-price" id="table_total-1">$4653.00</span></td>
+						    <td>
+						        <button>Delete</button>
+						    </td>
+						</tr>
+					</table>
+				</section>
+				<div class="place-order">
+					<div class="po-container">
+						<label class="label-po" for="field_po">PO #</label>
+						<input class="field-po" id="field_po" type="text">
+					</div>
+					<div class="list-container">
+						<label class="label-pick" for="list_from">Pick up from warehouse</label>
+						<select class="list-from" id="list_from">
+							<option>New York</option>
+						</select>
+					</div>
+					<a href="#" class="btn-place-order">Place Order</a>
+				</div>
+			</section>
+		</main>
+		
+</body>
